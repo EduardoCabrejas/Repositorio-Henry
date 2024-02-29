@@ -1,0 +1,124 @@
+body {
+    background-color: #99ebff;
+    margin: 1.5em;
+}
+
+h2 {
+    color: #412cfd;
+    font-family: 'Times New Roman', sans-serif;
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+
+h3 {
+    color: #412cfd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+p {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+form {
+    margin: auto;
+    font-size: 1.5em;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+#box {
+    font-size: large;
+}
+
+#title {
+    border: 0.2em solid rgb(4, 0, 255);
+    border-radius: 10%;
+    width: 40vw;
+    color: #412cfd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.6em;
+    text-align: center;
+    text-decoration: underline;
+    margin: auto;
+    padding: 0.2em;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+#portada{
+    border: 2px solid rgb(4, 0, 255);
+    padding: 10px 10px 10px 10px;
+    width: 50vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#list{
+    border: 1px solid rgb(4, 0, 255);
+    width: 35%;
+    color: #ffffff;
+    background-color: #00b7ff;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0em 0em 0em 0.5em;
+
+}
+
+.img {
+    width: 400px;
+    height: 200px;
+    border-radius: 1.2em;
+}
+
+.button {
+    font-size: 1em;
+}
+
+#cards-container1 {
+    width: 90%;
+    margin: auto;
+    background-color: darkblue;
+    border-radius: 1em 1em 0px 0px;
+    padding: 1em 0px 1em 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#cards-container2 {
+    width: 90%;
+    margin: auto;
+    background-color: darkblue;
+    border-radius: 0px 0px 1em 1em;
+    padding: 1em 0px 1em 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.cards {
+    border: 2px solid rgb(255, 0, 234);
+    width: 400px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 1em 1.5em 1em 1.5em;
+    transition: 1s;
+}
+
+.cards:hover {
+    background-color: #6932ff;
+}
+
+.opinion {
+    width: 50vw;
+    height: 12vw;
+}
+
+.submit {
+    font-size: 0.8em;
+}

@@ -9,5 +9,4 @@ function sonIguales(x, y) {
     return false;
   }
 }
-
 module.exports = sonIguales;

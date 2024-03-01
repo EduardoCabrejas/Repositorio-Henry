@@ -4,5 +4,4 @@ function obtenerResto(x, y) {
   // Tu código:
   return x % y;
 }
-
 module.exports = obtenerResto;

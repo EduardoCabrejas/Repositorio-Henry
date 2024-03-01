@@ -9,10 +9,8 @@ function esPositivo(num) {
     return "Es positivo";
   } else if (num < 0) {
     return "Es negativo";
-  } else {
+  } else if (num === 0){
     return false;
   }
 }
-
-
 module.exports = esPositivo;

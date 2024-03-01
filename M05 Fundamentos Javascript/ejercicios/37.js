@@ -5,5 +5,4 @@ function redondearNumero(num) {
    // Tu código:
    return Math.round(num);
 }
-
 module.exports = redondearNumero;

@@ -4,5 +4,4 @@ function obtenerSaludo(nombre) {
   // Tu código:
   return "Hola " + nombre + "!";
 }
-
 module.exports = obtenerSaludo;

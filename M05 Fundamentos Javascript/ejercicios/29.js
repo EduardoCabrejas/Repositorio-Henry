@@ -3,5 +3,4 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Tu código:
   return alto*ancho;
 }
-
 module.exports = obtenerAreaRectangulo;

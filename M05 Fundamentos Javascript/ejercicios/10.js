@@ -4,9 +4,9 @@ function esFechaValida(fecha) {
   // Si es así, retorna true, sino retorna false.
   // Tu código:
   date = new Date(fecha);
-  const year = 2022; // Definir el año que deseas verificar
-  const month = 0; // Definir el mes que deseas verificar (enero es 0)
-  const day = 1; // Definir el día que deseas verificar
+  const year = 2022; 
+  const month = 0; 
+  const day = 1; 
   
   if( date.getFullYear() == year &&
       date.getMonth() == month &&
@@ -16,5 +16,10 @@ function esFechaValida(fecha) {
       return false;
   }
 }
-
 module.exports = esFechaValida;
+
+/* if (Object.prototype.toString.call(fecha) === '[object Date]' && !isNaN(fecha)) {
+  return true;
+} else {
+  return false;
+} */

@@ -5,5 +5,4 @@ function elevar(num, exponent) {
   // Tu código:
   return Math.pow(num, exponent);
 }
-
 module.exports = elevar;

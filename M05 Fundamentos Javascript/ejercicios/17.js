@@ -8,5 +8,5 @@ function esPar(num) {
     return false;
   }
 }
-
 module.exports = esPar;
+

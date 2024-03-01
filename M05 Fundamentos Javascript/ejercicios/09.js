@@ -5,6 +5,8 @@ function esNuloOIndefinido(valor) {
   // Tu código:
   return valor === null || valor === undefined;
 }
-
-
 module.exports = esNuloOIndefinido;
+
+/* if (valor === null || valor === undefined) return true;
+  return false;
+} */

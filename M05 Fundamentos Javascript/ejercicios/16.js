@@ -8,5 +8,4 @@ function mayorQueCincuenta(num) {
     return false;
   }
 }
-
 module.exports = mayorQueCincuenta;

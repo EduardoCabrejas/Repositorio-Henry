@@ -4,5 +4,4 @@ function combinarNombres(nombre, apellido) {
   // Tu código:
   return nombre + " " + apellido;
 }
-
 module.exports = combinarNombres;

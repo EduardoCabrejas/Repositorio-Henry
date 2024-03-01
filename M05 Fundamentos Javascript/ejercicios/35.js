@@ -5,5 +5,4 @@ function elevarAlCubo(num) {
   // Tu código:
   return Math.pow(num, 3);
 }
-
 module.exports = elevarAlCubo;

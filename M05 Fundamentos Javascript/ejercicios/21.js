@@ -4,5 +4,4 @@ function suma(x, y) {
   // Tu código:
   return x + y;
 }
-
 module.exports = suma;

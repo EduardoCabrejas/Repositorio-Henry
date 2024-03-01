@@ -5,5 +5,4 @@ function esTipoDato(valor) {
   // Tu código:
   return typeof valor;
 }
-
 module.exports = esTipoDato;

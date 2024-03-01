@@ -11,5 +11,4 @@ function esVocal(letra) {
     return "Dato incorrecto";
   }
 }
-
 module.exports = esVocal;

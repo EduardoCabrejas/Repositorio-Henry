@@ -6,5 +6,8 @@ function esNumeroEntero(numero) {
   var esEntero = numero === Math.floor(numero);
   return esEntero;
 }
+/* if (Number.isInteger(numero)) return true;
+  return false;
+}*/
 
 module.exports = esNumeroEntero;

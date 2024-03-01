@@ -4,5 +4,4 @@ function multiplica(x, y) {
   // Tu código:
   return x * y;
 }
-
 module.exports = multiplica;

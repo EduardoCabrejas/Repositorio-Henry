@@ -8,5 +8,4 @@ function menosQueNoventa(num) {
     return false;
   }
 }
-
 module.exports = menosQueNoventa;

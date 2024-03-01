@@ -16,5 +16,17 @@ function esNumeroPrimo(numero) {
   }
     return true;
 }
-
 module.exports = esNumeroPrimo;
+/* if (!Number.isInteger(numero)) {
+  return false;
+}
+if (numero <= 1) {
+    return false;
+}
+for (var = i; i <= numero / 2; i++) {
+  if (numero % i === 0) {
+    return false;
+  }
+}
+return true;
+} */

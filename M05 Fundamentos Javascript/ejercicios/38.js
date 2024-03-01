@@ -5,5 +5,4 @@ function redondearHaciaArriba(num) {
   // Tu código:
   return Math.ceil(num);
 }
-
 module.exports = redondearHaciaArriba;

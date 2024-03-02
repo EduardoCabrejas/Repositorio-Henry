@@ -1,4 +1,4 @@
-let expr = "Naranjas";
+let expr = "Mangos";
 switch (expr) {
     case "Naranjas":
     console.log("El kilogramo de naranjas cuesta $0.59.");
@@ -19,11 +19,10 @@ switch (expr) {
     default:
     console.log("Lo lamentamos, por el momento no disponemos de " + expr + ".");
 }
-
 console.log("¿Hay algo más que quisiera consultar?");
 
-var foo = 0;
-switch (foo) {
+var foo0 = 0;
+switch (foo0) {
 case -1:
     console.log("1 negativo");
     break;
@@ -40,13 +39,13 @@ case 2:
     console.log("default");
 }
 
-var foo = 5;
-switch (foo) {
+var foo1 = 5;
+switch (foo1) {
 case 2:
     console.log("2");
     break; // al encontrar este 'break' se continuará con el siguiente 'default:'
 default:
-    console.log("default");
+    console.log("default de foo1");
   // fall-through
 case 1:
     console.log("1");
@@ -64,9 +63,9 @@ default:
     console.log("Este animal no lo hará.");
 }
 
-var foo = 1;
+var foo2 = 1;
 var output = "Salida: ";
-switch (foo) {
+switch (foo2) {
 case 1:
     output += "¿Y ";
 case 2:
@@ -86,4 +85,16 @@ case 6:
     break;
 default:
     console.log("Por favor, selecciona un valor del 1 al 6.");
+}
+
+var ironMaiden = "Iron Maiden";
+switch (ironMaiden) {
+    case "Iron Maiden":
+        console.log("Iron Maiden");
+        break;
+    case "The Stranglers":
+        console.log("The Stranglers");
+        break;
+    case "Rammstein":
+        break;
 }

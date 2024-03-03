@@ -5,7 +5,7 @@ function encontrarNumeroFaltante(numeros) {
   // Devuelve null si el aray es vacío o si no hay números faltantes.
   // Tu código:
   for (let i = 0; i < numeros.length; i++) {
-    if (numeros[i + 1] - numeros[i] > 1) {
+    if (numeros[i + 1] - numeros[i] > 1) { //Lo más importante.
       return numeros[i] + 1;
     }
   }

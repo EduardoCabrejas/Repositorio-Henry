@@ -79,13 +79,3 @@ while (arr1.length < 5) {
 arr1.push('BOOM');
 }
 console.log(arr1);
-
-var juegosFor = ['Warcraft III', 'Age of Empires', 'Halo'];
-for (let i = 0; i < juegosFor.length; i++) {
-    if (juegosFor[i] === "Warcraft III") {
-        console.log("Juego Fantástico de Estrategia")
-    } else {
-        console.log("Juegos Épicos a Adivinar")
-    }
-}
-console.log(juegosFor);
